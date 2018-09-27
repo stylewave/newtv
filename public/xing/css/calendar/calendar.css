@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.c_td td.select {
+	background:url(c-active.jpg) no-repeat center center;
+	color: #ffffff;
+	cursor: pointer;}
+.c_th th {
+	background-color: #D7D7D7;
+	color: #404040;
+	font: 12px/22px Tahoma;
+	text-align: center;
+	border-spacing: 2px;
+	width: 22px;
+	height: 22px;
+	border: 0;}
+.c_td td {
+	border-spacing: 2px;
+	border-color:  #000;
+	border: 0;
+	height: 24px;
+	text-align: center;
+	vertical-align: bottom;
+	color: #404040;
+	font: 12px/22px Tahoma;
+	width: 22px;}
+
+.c_td td.week{
+	color:#F30;}
+.c_td td.invalid {
+	color: #CCC;
+	cursor: default;}
+.c_td td.valid{
+		cursor: pointer;}
+.c_td td.valid:hover  {
+	background: url(c-hover.jpg) no-repeat center center;
+	}
+
+.c_td td.no{
+	background: url(c-no.gif);
+	color: #999;}
+
+.calendar {
+		font: normal 14px/12px Arial, Helvetica, sans-serif;
+		border: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+		cursor: default; 
+		margin: 0;
+        width: 182px;
+		float:left;}
+.c_line {
+	float:left;
+	width:1px;
+	background:url(xian.gif);
+	padding:0 13px;
+	height:188px;
+}
+.upload-form .calendar td {
+	padding: 0;
+	}
+caption {
+	text-align:center;
+	}
+
+
+
+

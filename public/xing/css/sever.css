@@ -1,0 +1,569 @@
+@charset "utf-8";
+/* CSS Document */
+
+.our-department .container,
+.container-fluid{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.onepage .container,
+.onepage .container-fluid{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+
+.section-title {
+	padding-bottom: 50px;
+}
+
+.section-title span {
+	color: #f68a15;
+}
+
+.section-title h6 {
+    text-transform: uppercase;
+    letter-spacing: 6.9px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.section-title-icon {
+    display: block;
+}
+.section-title-icon::after, .section-title-icon::before {
+    border-bottom: 1px solid #f68a15;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-top: 0;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.section-title-icon i {
+    color: #f68a15;
+    display: inline-block;
+    margin: 0 10px 0 15px;
+    font-size: 28px;
+    vertical-align: middle;
+}
+
+/*** 
+
+====================================================================
+	15.Our Departments
+====================================================================
+
+***/
+
+.department-item {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.department-title {
+	color: #FFF;
+	position: absolute;
+	bottom: -20px;
+	left: 20px;
+	padding-right: 20px;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+.department-title h6,.department-title a {
+	color: #fff;	
+}
+.department-title h6 {
+	letter-spacing: 5px;
+}
+
+.department-item .thumb {
+	position: relative;
+}
+.department-item .thumb:before {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	content: '';
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	background: -webkit-linear-gradient(bottom,rgba(6,35,57,.7),rgba(0,0,0,0));
+	background: -moz-linear-gradient(bottom,rgba(26,35,57,.7),rgba(0,0,0,0)); /* FF3.6-15 */
+	background: linear-gradient(bottom,rgba(6,35,57,.7),rgba(0,0,0,0));
+}
+.department-item:hover .thumb::before {
+	background: rgba(6,35,57,.9);
+}
+.department-item .department-dtls {
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	opacity: 0;
+}
+.department-item:hover .department-title,.department-item:hover .department-dtls {
+	bottom: 20px;
+	opacity: 1;
+}
+
+/*star 联系我们*/
+
+/*maps*/
+.main2-maps {
+  position: relative;
+  overflow: hidden; }
+  .main2-maps .contact-maps {
+    width: 370px;
+    height: 473px;
+    top: 110px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8); }
+  .main2-maps iframe{
+    width:100%;
+    height:700px;
+  }
+    .main2-maps .contact-maps h3 {
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      position: relative;
+      margin-top: 35px; }
+      .main2-maps .contact-maps h3:after {
+        content: "";
+        display: block;
+        width: 310px;
+        height: 1px;
+        margin-top: 25px !important;
+        margin-top: 0px;
+        margin: auto;
+        opacity: 0.1;
+        background-color: #ffffff; }
+    .main2-maps .contact-maps ul {
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      margin-top: 25px; }
+      .main2-maps .contact-maps ul li {
+        margin-bottom: 45px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ffffff; }
+        .main2-maps .contact-maps ul li a {
+          color: #ffffff; }
+          .main2-maps .contact-maps ul li a:hover {
+            color: #E23B1B; }
+        .main2-maps .contact-maps ul li i {
+          width: 50px;
+          height: 50px;
+          margin-left: 30px;
+          margin-top: -2px;
+          position: absolute;
+          border-radius: 50%;
+          border: solid 2px #E23B1B;
+          text-align: center;
+          line-height: 45px;
+          font-size: 24px;
+          color: #E23B1B; }
+        .main2-maps .contact-maps ul li span {
+          font-size: 12px;
+          font-weight: 600;
+          color: rgba(255, 255, 255, 0.5);
+          text-transform: uppercase; }
+        .main2-maps .contact-maps ul li p {
+          width: 60%;
+          margin-left: 100px; }
+    .main2-maps .contact-maps .btn-contact-us {
+      width: 310px;
+      height: 45px;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+      background-image: linear-gradient(to top, #e21b1b, #e2581b);
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 45px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      transition: all 0.5s; }
+      .main2-maps .contact-maps .btn-contact-us:hover {
+        background: #FFF;
+        color: #123C63;
+        cursor: pointer; }
+
+@media screen and (max-width: 767px) {
+  .main2-lastest-post h2{
+    font-size: 30px;
+  }
+  .main2-lastest-post h2:before {
+    height: 24px;
+    margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main2-maps .contact-maps {
+    width: 90%; }
+  .main2-maps .contact-maps .btn-contact-us {
+    width: 90%; } }
+
+#map {
+  width: 100%;
+  height: 700px; }
+
+.map-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+  font-family: 'Roboto','sans-serif';
+  margin: 10px;
+  /* Hide the control initially, to prevent it from appearing
+       before the map loads. */
+  display: none; }
+
+/* Display the control once it is inside the map. */
+#map .map-control {
+  display: block; }
+
+.selector-control {
+  font-size: 14px;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+  .entry-contact {
+  width: 100%;
+  height: auto;
+  background: #F4F4F4; }
+  .entry-contact h3 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: #123c63; }
+  .entry-contact #frm-contact input {
+    width: 47%;
+    height: 50px;
+    float: left;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    font-size: 14px;
+    text-align: left;
+    color: #aeaeae;
+    outline: none; }
+    .entry-contact #frm-contact input::-webkit-input-placeholder {
+  color: #aeaeae; }
+  .entry-contact #frm-contact .name {
+    float: right;
+    margin-right: 2%; }
+  .entry-contact #frm-contact #txt-p {
+    width: 98%;
+    height: 160px;
+    display: block;
+    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid #EAEAEA;
+    font-size: 14px;
+    text-align: left;
+    color: #aeaeae;
+    outline: none; }
+    .entry-contact #frm-contact #txt-p::-webkit-input-placeholder {
+  color: #aeaeae; }
+  .entry-contact #frm-contact .btn-contact {
+    width: 170px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border-radius: 25px;
+    background-image: linear-gradient(to top, #e21b1b, #e2581b);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.5s; }
+    .entry-contact #frm-contact .btn-contact:hover {
+      background: #FFF;
+      color: #123C63;
+      cursor: pointer; }
+  .entry-contact ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none; }
+    .entry-contact ul li {
+      margin-bottom: 45px;
+      margin-left: 85px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.86;
+      text-align: left;
+      color: #60676c; }
+      .entry-contact ul li i {
+        width: 60px;
+        height: 60px;
+        border: solid 2px #E34714;
+        font-size: 24px;
+        border-radius: 50%;
+        line-height: 60px;
+        text-align: center;
+        color: #E34714;
+        position: absolute;
+        margin-left: -85px; }
+      .entry-contact ul li span {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 2.17;
+        text-align: left;
+        color: #aeaeae;
+        text-transform: uppercase; }
+
+@media screen and (max-width: 991px) {
+  .entry-faq {
+    margin-top: 50px !important;
+  }
+  .entry-faq h3 {
+    margin-top: -46px;
+  }
+  .entry-contact #frm-contact .btn-contact{
+    margin-bottom: 30px !important;
+  }
+  .entry-faq {
+    padding-bottom: 0px; }
+  .entry-faq h3 {
+    padding-top: 0px; }
+  .entry-contact {
+    padding-bottom: 50px; }
+  .entry-contact h3 {
+    padding-top: 20px !important; } }
+
+@media screen and (max-width: 767px) {
+  .page1-core-values h2:after {
+    margin-bottom: 50px;
+  }
+  .page1-core-values h2{
+    font-size: 30px;
+  }
+  .entry-contact {
+    padding-bottom: 20px;
+  }
+  .entry-faq .panel-default > .panel-heading{
+    padding: 15px 10px;
+  }
+  #frm-contact input {
+    width: 100% !important;
+    margin: 0px !important;
+    margin-bottom: 30px !important; }
+  .entry-contact #txt-p {
+    width: 100% !important; }
+  .entry-contact .btn-contact {
+    width: 100% !important; } 
+  }
+  .googleMap{background-color: rgba(0, 0, 0, 0.6);}
+/*end 联系我们*/
+/*主营业务*/
+.mt40{margin-top: 40px;}
+.hot_prd,.hot_prd .hot_products {
+  width: 1200px
+}
+
+.hot_prd {
+  margin: 24px auto 0
+}
+
+.hot_prd .head {
+  height: 80px;
+  line-height: 80px
+}
+
+.hot_prd .head .icon_abroad_hot {
+  font-size: 38px;
+  color: #3aa3ec;
+  margin-right: 10px
+}
+
+.hot_prd .head .title {
+  font-size: 30px;
+  color: #3aa3ec
+}
+
+.hot_prd .head .little_title {
+  font-size: 14px;
+  color: #666;
+  margin-left: 20px
+}
+
+.hot_prd .hot_products ul {
+  width: 1220px;
+  margin: 0 -11px 0 -10px;
+  *zoom: 1
+}
+
+.hot_prd .hot_products ul:after {
+  display: block;
+  height: 0
+}
+
+.hot_prd .hot_products ul li {
+  position: relative;
+  float: left;
+  width: 284px;
+  height: 252px;
+  margin: 0 11px 20px 10px;
+  border: 1px solid #f5f5f5;
+  background-color: #fff;
+  top: 0;
+  transition: all .2s;
+}
+
+.hot_prd .hot_products ul li img {
+  display: block;
+  width: 282px;
+  height: 188px
+}
+
+.hot_prd .hot_products ul li .title {
+  height: 40px;
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  line-height: 40px;
+  overflow: hidden
+
+}
+
+.hot_prd .hot_products ul li .old_price {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #999;
+  padding-left: 10px;
+  text-decoration: line-through
+}
+
+.hot_prd .hot_products ul li .price {
+  float: left;
+  margin-top: 6px;
+  padding-left: 10px;
+  color: #f15d53;
+  font-size: 14px
+}
+
+.hot_prd .hot_products ul li .price .value {
+  font-size: 26px
+}
+
+.hot_prd .hot_products ul li .price .qi {
+  margin-left: 3px;
+  color: #666
+}
+
+.hot_prd .hot_products ul li .origin {
+  float: right;
+  padding-right: 10px;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #999
+}
+
+.hot_prd .hot_products ul li .tags {
+  position: absolute;
+  left: 10px;
+  top: 10px
+}
+
+.hot_prd .hot_products ul li .tags span {
+  display: inline-block;
+  width: 44px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  color: #fff;
+  background-color: #f15d53
+}
+
+.hot_prd .hot_products ul li .tags span.special {
+  background-color: #1553c4
+}
+
+.hot_prd .hot_products ul li:hover {
+    top: -6px;
+    box-shadow: 0 5px 20px 1px rgba(76,75,75,.6)
+}
+.color_green .icon_abroad_hot ,.color_green .title{
+  color:#3fc724 !important;
+}
+.color_orange .icon_abroad_hot ,.color_orange .title{
+  color:#f7b300 !important;
+}
+.color_red .icon_abroad_hot ,.color_red .title{
+  color:#f71111 !important;
+}
+.color_red2 .icon_abroad_hot ,.color_red2 .title{
+  color:#f70ad8 !important;
+}
+.color_blue .icon_abroad_hot ,.color_blue .title{
+  color:#3aa3ec !important;
+}
+
+/*tab切换*/
+.hotmail{}
+.hotmail .title{}
+.hotmail .title h2{ font-family: "microsoft yahei";}
+/*.hotmail .title-list{ position: relative; top: 6px;}
+.hotmail .title-list li{ width: 146px; line-height: 20px; text-align: center; float: left; display: inline;}
+.hotmail .title-list li.on{ color: #ff6600; font-weight: bold;}*/
+.hotmail .title-list{
+  float: right;
+  margin-top: 10px;
+  height: 23px;
+}
+.hotmail .title-list li {
+  float: left;
+  font-size: 14px;
+  margin-right: 8px
+}
+
+.hotmail .title-list li a {
+  color: #666;
+  cursor: pointer;
+  /*display: inline-block;*/
+  padding: 5px 9px;
+  border-radius: 2px
+}
+
+.hotmail .title-list li.on a,.hotmail .title-list li:hover a {
+  color: #fff;
+  background-color: #ff731c;
+}
+
+.hotmail .title-list p{position:absolute;top:24px;left:0px;width:146px;height:7px;border-top: 3px solid #ff6600; overflow: hidden; text-align: center;}
+.hotmail .title-list b{display:inline-block;width:0;height:0;margin-top:-3px;border-style:solid dashed dashed dashed;border-width:9px;border-color: #ff6600 #fff #fff #fff;overflow: hidden;zoom: 1;font-size: 0;}
+.product{ height: 268px; position: relative;  display: none; margin-top: 20px;}
+.product ul{ position: absolute; left: 0px;}
+.product-wrap .show{ display: block;}
+.product-wrap .product li{ float: left; display: inline; margin-left: 13px; transition:0.4s;-webkit-transition:0.4s;-moz-transition: 0.4s;-o-transition: 0.4s;-ms-transition: 0.4s;}
+.product-wrap .product li.ml0{margin-left:0px;}
+.product-wrap .product li a.imgwrap{ display: block; width: 226px; height: 200px; background: #fff; text-align:center;}
+.product-wrap .product li p{padding-left: 15px;color: #666666;line-height: 22px;}
+.product-wrap .product li p a{ color: #666666; text-decoration: none;}
+.product-wrap .product li p a:hover{ color: #ff6600; text-decoration: none;}

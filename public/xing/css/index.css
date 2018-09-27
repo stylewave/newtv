@@ -1,0 +1,68 @@
+﻿html,body,p,h1,h2,h3,h4,h5,b,span,a,.ev-btn{
+    font-family: "Microsoft Yahei","微软雅黑" !important;
+}
+.text-right a{margin-right: 15px;}
+.navbar-brand{margin-top: -15px;}
+.page1-core-values {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .page1-core-values h2 {
+    font-size: 44px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #123c63; }
+    .page1-core-values h2:after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      margin: auto;
+      margin-top: 21px;
+      margin-bottom: 72px;
+      background-image: linear-gradient(to top, #e21b1b, #e2581b); }
+  .page1-core-values .item {
+    margin-bottom: 60px; }
+    .page1-core-values .item i {
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      display: block;
+      border: solid 2px #E34F28;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 80px;
+      font-size: 30px;
+      color: #E34F28; }
+    .page1-core-values .item h3 {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.44;
+      text-align: center;
+      text-transform: uppercase;
+      color: #123c63; }
+    .page1-core-values .item p {
+      margin-top: 15px;
+      font-size: 14px;
+      line-height: 1.71;
+      text-align: center;
+      color: #60676c; }
+     
+  .navfixed{ position: fixed !important; left: 0; z-index: 999 ;width: 100%;transition: height 0.6s;}
+  .minimal-light .esg-singlefilters{text-align: center; }
+@media (min-width:320px) and (max-width:750px){
+  .containerBanner .page-banner-content{padding-left: 20px;}
+  nav.navbar .ev-social{ display:none; }
+  .work-process-section .col-lg-4{width: 100%}
+  .work-process-two p{max-width: 100% !important;}
+  .blog-item{margin-bottom: 20px;}
+  .img-responsive{width: 100% !important;height: 100% !important;}
+  .tx-menu{ position: fixed; }
+  .mainul .filterall{} 
+   .minimal-light .esg-filters{ text-align: left !important; }
+   .page1-core-values .col-xs-12{width: 50% !important;}
+   .index_time{ display: none !important; }
+   .page1-core-values{margin-bottom: 0px !important;}
+   .vc_custom_1480928688769{padding-top: 0 !important;}
+}

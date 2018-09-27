@@ -1,0 +1,56 @@
+#sidebar_box{width:220px; background-color:#fff;}
+#sidebar_box_new{text-indent:12px; width:203px; height:33px; color:#fff; font-weight:bold; margin:0 auto; background-image:url(../images/admin/sidebar_new.jpg); background-repeat:no-repeat; line-height:33px; position:relative; cursor:pointer;}
+
+.sidebar_spaceone{ width:100%; height:10px; overflow:hidden;}
+.sidebar_newpro{ text-indent:12px; color:#fff; font-weight:bold; width:203px; height:33px; line-height:36px; overflow:hidden; margin:0 auto; background-image:url(../images/admin/sidebar_over.jpg);}
+.sidebar_newpro a{ display:block; color:#fff; text-decoration:none;}
+.sidebar_contact{ width:200px; margin:0 auto; overflow:hidden;}
+.sidebar_contact .sidebar_contact_timg{ background:url(../images/admin/leftbarbg_03.png) no-repeat 0 0; height:5px; overflow:hidden;}
+.sidebar_contact .sidebar_contact_cimg{ padding:0px 12px; background:url(../images/admin/bg_07.png) repeat-x 0 0; border:1px solid #e8e8e8; border-width:0 1px;}
+.sidebar_contact .sidebar_contact_cimg a{ color:#666; width:180px; height:22px; line-height:22px; display:block; overflow:hidden; text-decoration:underline;}
+.sidebar_contact .sidebar_contact_cimg a:hover{ color:#ff6600; background:url(../images/admin/icon.png) no-repeat right 2px; text-indent:5px;}
+.sidebar_contact .sidebar_contact_bimg{ background:url(../images/admin/leftbarbg_06.png) no-repeat 0 0; height:8px; overflow:hidden;}
+
+.sidebar_links{ width:200px; margin:0 auto;}
+.sidebar_links .sidebar_links_timg{ background:url(../images/admin/leftbarbg_08.png) no-repeat 0 0; height:26px; overflow:hidden; font-weight:bold; line-height:32px; text-indent:12px; overflow:hidden;}
+.sidebar_links .sidebar_links_timg span{ background:url(../images/admin/icon.png) no-repeat -1px -128px; padding-left:18px; color:#666;}
+.sidebar_links .sidebar_links_cimg{ background:url(../images/admin/leftbarbg_10.png) top center #FFF repeat-x; padding:5px 10px; border:1px solid #e6e6e6; border-top:0; border-bottom:0; line-height:22px; color:#666;}
+.sidebar_links .sidebar_links_cimg a{ background:url(../images/admin/icon.png) left -125px no-repeat; display:block; color:#666; line-height:22px; height:22px; padding-left:18px; overflow:hidden;}
+.sidebar_links .sidebar_links_bimg{ background:url(../images/admin/leftbarbg_06.png) no-repeat 0 0 #FFF; height:15px; overflow:hidden;}
+
+#sidebar_gde{ width:205px; height:32px; margin:0 auto; background-color:#dcfbdc;}
+#sidebar_gde ul{}
+#sidebar_gde ul li{float:left;}
+#sidebar_gde ul li#sidebar_gde_left{ height:32px; width:5px; background-image:url(../images/admin/sidebar_gde_leftimg.jpg); background-repeat:no-repeat;}
+#sidebar_gde ul li#sidebar_gde_center{ width:174px; height:32px; line-height:32px; text-align:left; font-weight:bold;}
+#sidebar_gde ul li#sidebar_gde_center a{ color:#000;display:block;}
+#sidebar_gde ul li#sidebar_gde_ico{ height:32px; width:19px; }
+#sidebar_gde ul li#sidebar_gde_ico img{ margin-top:7px;}
+#sidebar_gde ul li#sidebar_gde_rihgt{height:32px; width:5px;background-image:url(../images/admin/sidebar_gde_rightimg.jpg); background-repeat:no-repeat;}
+
+/*右下角任務提示CSS*/
+
+.float_layer { width: 216px; display:none; }
+.float_layer h2 { height: 27px; line-height: 26px; padding-left: 32px; font-size: 12px; color: #ee8f0e; background: url(../images/admin/title_bg.png) repeat-x; position: relative; }
+
+.float_layer .min { width: 50px; height: 20px; background: url(../images/admin/min.gif) no-repeat 30px bottom; position: absolute; top: 3px; right: 5px; }
+.float_layer .min:hover { background: url(../images/admin/min.gif) no-repeat 30px -1px; }
+
+.float_layer .max { width: 50px; height: 20px; background: url(../images/admin/max.gif) no-repeat 30px bottom; position: absolute; top: 3px; right: 5px; }
+.float_layer .max:hover { background: url(../images/admin/max.gif) no-repeat 30px -1px; }
+
+.float_layer .close { width: 21px; height: 20px; background: url(../images/admin/close.gif) no-repeat 0 bottom; position: absolute; top: 3px; right: 3px; }
+.float_layer .close:hover { background: url(../images/admin/close.gif) no-repeat 0 -1px; }
+
+.float_layer .content { height:auto; overflow: hidden; font-size: 12px; line-height: 18px; color: #666; }
+.float_layer .wrap { padding: 0 8px; background-color:#FFF; border:1px solid #ffe20f; border-width:0 1px;}
+.float_layer .wrap ul li{ line-height:22px; padding-top:5px; color:#666666;}
+.float_layer .wrap ul li h4{ font-size:14px; height:22px; line-height:22px; overflow:hidden; background-color:#f9e9f6; color:#cc0066; text-indent:20px; background:url(../images/admin/li_10.png) no-repeat 5px center; border-bottom:1px solid #f0f0f0;}
+.float_layer .wrap ul li blockquote { padding:3px 5px;}
+.float_layer .wrap ul li blockquote a{ color:#666; text-decoration:none;}
+.float_layer .wrap ul li blockquote a:hover{ color:#cc0066; text-decoration:underline;}
+.float_layer .content .bottombg{background:url(../images/admin/bg_14.png) no-repeat 0 0; height:4px; overflow:hidden;}
+
+.messagewrap{overflow:hidden;position:relative;width:190px;height:85px}
+.messagewrap ul li{ line-height:16px; color:#999; margin:5px 0;}
+.bottomcover{width:185px;height:30px;position:absolute;bottom:0;left:0;pointer-events:none;background:url(../images/default/qiangzi/halftransp.png) left top no-repeat}

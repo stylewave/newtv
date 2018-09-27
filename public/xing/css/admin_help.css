@@ -1,0 +1,7 @@
+#help_sch_button{ width:160px; margin:0 auto; text-align:center;}
+#help_sch_button img{ margin-top:8px;}
+#help_sch_button a img{filter:alpha(opacity=50);-moz-opacity:0.50; opacity:0.50;}
+#help_sch_button a:hover img{filter:alpha(opacity=100);-moz-opacity:1; opacity:1;}
+.crmhelp ul li{border-bottom:1px solid #eaeaea;}
+.crmhelp ul li a{ background:url("../images/admin/icon.png") no-repeat scroll 8px -164px transparent;color: #666666;display:block; padding:2px 0 2px 28px; font-size:12px; line-height:20px;}
+.crmhelp ul li a:hover{ color:#F60; text-decoration:none; background-color:#FFFFDA;}

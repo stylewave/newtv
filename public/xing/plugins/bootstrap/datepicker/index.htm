@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>标题</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta charset="utf-8">
+	<script src="/jquery/jquery.min.js"></script>
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<script src="locales/bootstrap-datepicker.zh-CN.min.js" charset="UTF-8"></script>
+	<link id="bs-css" href="/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link id="bsdp-css" href="css/bootstrap-datepicker3.css" rel="stylesheet">
+	<script>
+	$(function(){
+		$('#datepicker').datepicker({
+			format: "yyyy/mm/dd",						//格式
+			clearBtn: true,								//清空功能
+			//toggleActive: true,							//再点击取消
+			language: "zh-CN",	
+			orientation: "top auto",					//窗口靠边位
+			autoclose: true,							//选完即关闭
+			todayHighlight: true,						//高亮今天
+			datesDisabled: ['2015/08/15', '2015/08/30'],//不能选
+			startDate: "2015-08-02",
+			endDate: "2015-09-02",
+			multidate: true,							//是否允许多选
+			daysOfWeekDisabled: "6,0"					//周6,周日不可选
+		});
+
+		var startDate = new Date();
+		var FromEndDate = new Date();
+		var ToEndDate = new Date();
+		
+		$('#start').datepicker({
+				format: "yyyy/mm/dd",						//格式
+				clearBtn: true,								//清空功能
+				language: "zh-CN",	
+				orientation: "top auto",					//窗口靠边位
+				autoclose: true,							//选完即关闭
+				todayHighlight: true						//高亮今天
+			})
+			.on('changeDate', function(selected){
+			startDate = new Date(selected.date.valueOf());
+			startDate.setDate(startDate.getDate(new Date(selected.date.valueOf())));
+			$('#end').datepicker('setStartDate', startDate);
+		}); 
+
+		$('#end').datepicker({
+				format: "yyyy/mm/dd",						//格式
+				clearBtn: true,								//清空功能
+				language: "zh-CN",	
+				orientation: "top auto",					//窗口靠边位
+				autoclose: true,							//选完即关闭
+				todayHighlight: true						//高亮今天
+			})
+			.on('changeDate', function(selected){
+				FromEndDate = new Date(selected.date.valueOf());
+				FromEndDate.setDate(FromEndDate.getDate(new Date(selected.date.valueOf())));
+				$('#start').datepicker('setEndDate', FromEndDate);
+		});
+	
+	})
+	</script>
+</head>
+<body>
+<br>
+<br>
+<label>标准</label>
+<input type="text" class="form-control" id="datepicker" /> <br>
+<label>范围</label>
+<div class="input-daterange">
+    <input type="text" class="input-small form-control" id="start" />
+    <span class="add-on">to</span>
+    <input type="text" class="input-small form-control" id="end" />
+</div>
+</body>
+</html> 
+

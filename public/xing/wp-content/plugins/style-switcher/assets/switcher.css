@@ -1,0 +1,116 @@
+/* Styles Switcher
+====================================================================== */
+
+
+#style-switcher h3 {
+	color: #222 !important;
+	font-size: 13px !important;
+	margin: 5px 0 -5px 1px;
+	text-transform: uppercase;
+	font-weight: 700 !important;
+}
+#style-switcher {
+	background-color: #fff;
+	width: 185px;
+	position:fixed;
+	top: 175px;
+	z-index: 999;
+	right: -186px;
+	border-left: 0;
+	border-top: 0;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+	text-align: center;
+}
+#style-switcher div {
+	padding: 2px 20px 10px 20px;
+}
+#style-switcher h2 {
+	background-color: #fff;
+	color: #222;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px 0 5px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#style-switcher h2 a {
+	background-color:#fff;
+	display: block;
+	height: 44px;
+	position: absolute;
+	left: -44px;
+	top: 0px;
+	width: 44px;
+	z-index: 999999!important;
+	font-size: 25px;
+	line-height: 44px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.colors {
+	list-style:none;
+	padding-top: 10px;
+	padding-left: 0;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.colors li {
+	display: inline-block;
+	margin: 4px 2px 0 2px;
+}
+
+.colors li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	border-radius:50px;
+
+}
+
+
+
+.colors li a:active{
+	box-shadow:0 3px 3px rgba(0, 0, 0, 0.5) inset;
+	
+}
+.colors li a:focus{
+	
+	border: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+.home-var, .header-var{
+	padding-top: 10px;
+	padding-left: 0;
+	margin-bottom: 30px;
+}
+.home-var li, .header-var li{
+	list-style: none;
+}
+
+
+
+.layout-style select,
+.header-style select {
+	width: 140px;
+	padding: 5px;
+	color: #909090;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 13px;
+	margin: 10px 0 10px 2px;
+
+}
+
+.layout-style,
+.header-style { padding: 0 !important; }
+
+.style-blue    { background: #2681cf; }
+.style-dark-blue    { background: #311b92; }
+.style-red    { background: #f71111; }
+
+
+
+@media only screen and (max-width: 1023px) { #style-switcher { display: none; } }

@@ -1,0 +1,4 @@
+base64:I0qtKHbLLTq2Heo2+MujcfG9+GcvlcO/zYtoOajnsBI=
+
+
+php artisan migration

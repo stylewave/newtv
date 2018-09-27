@@ -1,0 +1,66 @@
+body { font-family: "microsoft yahei"; margin:0; padding:0;}
+html {
+    background: #faf7ed
+}
+
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+img {border:none;}
+a:active,
+a:focus,
+a:hover {
+    color: #b19262
+}
+body { background: url(/public/images/default/hline.png) repeat-x;}
+.main_header { background:url(/public/images/default/bg_body.jpg) no-repeat center top; height:728px; margin:0 auto; width:100%; }
+
+.header_list { width:1200px; margin:0 auto; }
+.header_list a { display: block; float:left;}
+.header_list a img { float:left;}
+.header_list .header_bg {display: block; position:relative; width:100%; background:url(/public/images/default/header_04.jpg) no-repeat center top; height:183px;}
+.header_list .header_bg img { position:absolute; left:50%; top:70px; margin-left:-153px;}
+
+
+.detail_menu { width:1000px; margin:35px auto 0; height:150px;}
+.detail_menu a { display: block; width:25%; float:left; text-align: center;}
+.detail_menu a p { font-size:20px; color:#2b2b2b; line-height:12px;}
+
+
+.detail_box { background: #ffffff; width:100%; height:520px;}
+.detail_box .detail_inner { width:1200px; margin:0 auto; height:520px; position:relative;}
+.detail_box .detail_inner .de_img { position:absolute; left:0; top:80px; z-index:22;}
+.detail_box .detail_inner .de_line {position:absolute; top:140px; right:200px; z-index:11;}
+.detail_box .detail_inner .de_text { text-align: right; padding-right:190px; width:566px; padding-top:80px; height:420px; position:absolute;  background:url(/public/images/default/jumi_20.jpg) no-repeat right bottom; right:-100px; bottom:0;}
+.detail_box .detail_inner .de_text h2 { color:#f64905; font-size:50px; }
+.detail_box .detail_inner .de_text p { font-size:28px; color:#2b2b2b; line-height:28px;}
+
+
+
+.detail_box2 { background: #fafafa; width:100%; height:520px;}
+.detail_box2 .detail_inner { width:1200px; margin:0 auto; height:520px; position:relative;}
+.detail_box2 .detail_inner .de_img { position:absolute; right:0; top:80px; z-index:22;}
+.detail_box2 .detail_inner .de_line {position:absolute; top:140px; left:200px; z-index:11;}
+.detail_box2 .detail_inner .de_text {  width:500px; padding-left:190px; padding-top:80px; height:420px; position:absolute;  background:url(/public/images/default/jumi_28.jpg) no-repeat left bottom; left:-100px; bottom:0;}
+.detail_box2 .detail_inner .de_text h2 { color:#3191fc; font-size:50px; }
+.detail_box2 .detail_inner .de_text p { font-size:28px; color:#2b2b2b; line-height:28px;}
+
+
+.detail_box3 { background: #ffffff; width:100%; height:520px;}
+.detail_box3 .detail_inner { width:1200px;  margin:0 auto; height:520px; position:relative;}
+.detail_box3 .detail_inner .de_img { position:absolute; left:0; top:80px; z-index:22;}
+.detail_box3 .detail_inner .de_line {position:absolute; top:140px; right:200px; z-index:11;}
+.detail_box3 .detail_inner .de_text {text-align: right; padding-right:190px; width:566px; padding-top:80px; height:420px; position:absolute;   background:url(/public/images/default/jumi_36.jpg) no-repeat right bottom; right:-100px; bottom:0;}
+.detail_box3 .detail_inner .de_text h2 { color:#881ec5; font-size:50px; }
+.detail_box3 .detail_inner .de_text p { font-size:28px; color:#2b2b2b; line-height:28px;}
+
+.detail_box4 { background: #fafafa; width:100%; height:520px;}
+.detail_box4 .detail_inner { width:1200px; margin:0 auto; height:520px; position:relative;}
+.detail_box4 .detail_inner .de_img { position:absolute; right:0; top:80px; z-index:22;}
+.detail_box4 .detail_inner .de_line {position:absolute; top:140px; left:200px; z-index:11;}
+.detail_box4 .detail_inner .de_text {width:500px; padding-left:190px; padding-top:80px; height:420px; position:absolute; background:url(/public/images/default/jumi_44.jpg) no-repeat left bottom; left:-100px; bottom:0;}
+.detail_box4 .detail_inner .de_text h2 { color:#f82a56; font-size:50px; }
+.detail_box4 .detail_inner .de_text p { font-size:28px; color:#2b2b2b; line-height:28px;}
+

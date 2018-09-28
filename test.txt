@@ -2,3 +2,14 @@ base64:I0qtKHbLLTq2Heo2+MujcfG9+GcvlcO/zYtoOajnsBI=
 
 
 php artisan migration
+
+
+证书不可用：
+https://blog.csdn.net/sanbingyutuoniao123/article/details/71124655
+
+QueryList
+coreController.php文件
+
+composer require jaeger/querylist
+
+Myworld123!
